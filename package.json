@@ -1,0 +1,33 @@
+{
+  "name": "random-message-daroch",
+  "version": "1.0.1",
+  "description": "mensaje aleatorio",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "random",
+    "js"
+  ],
+  "author": "daroch314@gmail.com",
+  "license": "MIT",
+  "bin": {
+    "random-msg": "bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "nano": "^10.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daroch/npm-random-message.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Daroch/npm-random-message/issues"
+  },
+  "homepage": "https://github.com/Daroch/npm-random-message#readme"
+}
